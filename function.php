@@ -1,5 +1,5 @@
 <?php
-$home = 'http://ohdep.tk';
+$home = 'http://wapvip.herokuapp.com';
 function mh_page($total,$show){
 $p = $_GET['page'];
 if(empty($_GET['page'])) $p=1;
