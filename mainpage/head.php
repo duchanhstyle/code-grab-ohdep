@@ -71,6 +71,54 @@ img.hovereffect:hover {
  opacity: 1;
 }
 </style>
+	<!-- nav menu-->
+	<section id="nav" class="wsmenu slideLeft">
+		<div class="inner-page clearfix"><a class="logo" href="/"><img
+					src="/templates/theme1691/images/logo-toppay.png"></a>
+			<div class="search">
+	<form action="/" method="post" class="form-inline">
+		<label for="mod-search-searchword" class="element-invisible">Tìm kiếm...</label> <input name="searchword" id="mod-search-searchword" maxlength="200"  class="inputbox search-query" type="search" placeholder="Tìm kiếm..." /> <button class="button btn btn-primary" onclick="this.form.searchword.focus();">Tìm kiếm</button>		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="103" />
+	</form>
+</div>
+
+			<ul class="tabsnav">
+				
+<li class="item-127"><a href="/tien-ich" class="tab-intro">Giới thiệu</a></li><li class="item-102"><a href="/tin-tuc" class="tab-news">TIN TỨC</a></li><li class="item-114 deeper parent"><a href="/hoi-dap" class="tab-ques">Hỏi đáp</a><ul class="submenu"><li class="item-115"><a href="/hoi-dap/ung-dung" class="tab1 menuscroll">Ứng dụng</a></li><li class="item-116"><a href="/hoi-dap/dich-vu" class="tab2 menuscroll">Dịch vụ</a></li><li class="item-117"><a href="/hoi-dap/dich-vu-khac" class="tab3 menuscroll">Dịch vụ khác</a></li><li class="item-123"><a href="/hoi-dap/nap-tien" class="tab4 menuscroll">Nạp tiền</a></li></ul></li>
+				<!--<li><a class="btage" href="http://info.cyberpay.vn/"><span>ĐẠI LÝ</span></a>
+				</li>-->
+				<li>
+					<a class="btage" href="/mua-the">
+						<span>Mua thẻ</span>
+					</a>
+				</li>
+				<li class="downapp">
+					<a class="btdown" id="linkdownload1" href="#"><span><img
+								src="/templates/theme1691/images/icon-down.png"> TẢI ỨNG DỤNG</span></a>
+
+					<div class="bx-down">
+						<a class="android" href="https://goo.gl/r2hxLd"
+						   onclick="var that=this;ga('send', 'event', 'googleplay1', 'toppay', 'button');">
+							<i class="fa fa-android"></i>
+							Google Play
+						</a>
+						<a class="ios" href="https://goo.gl/aAjZrT"
+						   onclick="var that=this;ga('send', 'event', 'appstore1', 'toppay', 'button');">
+							<i class="fa fa-apple"></i>
+							App Store
+						</a>
+					</div>
+				</li>
+				<li>
+					<p class="hotline"> 1900 6906</p>
+					<a class="btface" href="https://www.facebook.com/toppayvn/"><i
+							class="fa fa-facebook-official"></i> </a>
+				</li>
+			</ul>
+		</div>
+	</section>
+<!-- menu mobile-->
 <?php
 include 'menu.php';
 ?>
