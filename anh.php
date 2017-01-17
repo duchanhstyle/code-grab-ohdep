@@ -1,6 +1,6 @@
 <?php
 include 'function.php';
-$leech = "http://ohdep.net";
+$leech = "http://wapvip.herokuapp.com";
 $del = $leech;
 $page = htmlentities($_GET['page']);
 $urll = htmlentities($_GET['url']);
