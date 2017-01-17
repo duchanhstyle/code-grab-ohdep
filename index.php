@@ -46,7 +46,7 @@ $content = preg_replace('#<a href="(.*?)" title="(.*?)"><img alt="(.*?)" title="
 
 
 include 'mainpage/head.php';
-echo '<section id="bxnews-slider"> <ul id="slidernews"> <li><a href="https://toppay.vn/hoi-dap/dich-vu?article_id=63#answer-63"><img src="http://toppay.vn/images/Banner_Huong-dan-nap-tien-vao-vi-toppay_1920x400_15-07_3.png"></a></li> <li><a href="https://toppay.vn/tin-tuc/21-tin-tuc/115-gioi-thieu-cac-chuc-nang-chinh-cua-toppay"><img src="http://toppay.vn/images/TopPay_Nap-so-gia-soc_1920x400.png"></a></li> </ul> </section> <h2 class="title"> Grab Ohdep.Net By Nhoc96</h2>
+echo '<section id="bxnews-slider"> <ul id="slidernews"> <li><h2>Cám ơn bạn đã quan tâm sử dụng dịch vụ của chúng tôi</h2></li> <li><h2>Chúc các bạn có những giây phút thư giãn vui vẻ bên gia đình</h2></li> </ul> </section> <h2 class="title"> Cập nhật ảnh gái xinh hàng ngày</h2>
 <section id="newpage"><div class="inner-page">
 <ul class="listnews">';
 $max_page = str_replace("p", '', $max_page[1]);
